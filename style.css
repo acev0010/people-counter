@@ -63,10 +63,36 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+  background: rgb(189, 114, 114);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#increment-btn:hover {
+background: rgb(163, 79, 79);
+text-align: center;
+color: rgb(157, 218, 218);
 }
 
 #save-btn {
-    background: darkgreen;
+    background: rgb(57, 173, 57);
+    text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
+#save-btn:hover {
+  background: rgb(32, 153, 32);
+  text-align: center;
+  color: rgb(2, 15, 15);
+  }
+
+  #save-el {
+    font-size: 20px;
+    margin-top: 10;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
